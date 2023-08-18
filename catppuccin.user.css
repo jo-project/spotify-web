@@ -142,65 +142,65 @@
     }
     /* Insert code here... */
     .ZQftYELq0aOsg6tPbVbV {
-        background-color: #1E1E2E;
+        background-color: var(--base);
     }
 
     .EZFyDnuQnx5hw78phLqP {
-        background-color: #11111B;
+        background-color: var(--crust);
     }
 
     .BdcvqBAid96FaHAmPYw_ {
-        background-color: #1E1E2E;
+        background-color: var(--base);
     }
 
     .HsbczDqu9qjcYr7EIdHR {
-        background-color: #11111B !important;
-        background-image: linear-gradient(#11111B 0, #11111B 100%), var(--background-noise) !important;
+        background-color: var(--crust) !important;
+        background-image: linear-gradient(var(--crust) 0, var(--crust) 100%), var(--background-noise) !important;
     }
 
     .epWhU7hHGktzlO_dop6z {
-        background-color: #89b4fa !important;
+        background-color: var(--accent) !important;
     }
 
     /* Card */
     .LunqxlFIupJw_Dkx6mNx {
-        background: #1E1E2E;
+        background: var(--base);
     }
 
     .KAZD28usA1vPz5GVpm63.RK45o6dbvO1mb0wQtSwq::after {
-        background-color: #89b4fa !important;
+        background-color: var(--accent) !important;
     }
 
     .KAZD28usA1vPz5GVpm63.RK45o6dbvO1mb0wQtSwq,
     .KAZD28usA1vPz5GVpm63.RK45o6dbvO1mb0wQtSwq:focus,
     .KAZD28usA1vPz5GVpm63.RK45o6dbvO1mb0wQtSwq:hover {
-        color: #89b4fa !important;
+        color: var(--accent) !important;
     }
 
     .leya-dW {
-        fill: #cdd6f4 !important;
+        fill: var(--text) !important;
     }
 
     .VgSbatGBB9XwTH2_dsxg .ql0zZd7giPXSnPg75NR0 {
         background-color: transparent;
-        color: #cdd6f4 !important;
+        color: var(--text) !important;
     }
 
     .haNxPq {
-        fill: #cdd6f4 !important;
+        fill: var(--text) !important;
     }
 
     .eDaZIM {
-        background-color: var(--background-base, #11111b) !important;
-        color: var(--text-base, #cdd6f4) !important;
+        background-color: var(--background-base, var(--crust)) !important;
+        color: var(--text-base, var(--text)) !important;
     }
 
     .cabTyT {
-        background-color: #11111b;
+        background-color: var(--crust);
     }
 
     .facDIsOQo9q7kiWc4jSg a {
-        background-color: #11111b !important;
+        background-color: var(--crust) !important;
     }
 
     .m95Ymx847hCaxHjmyXKX {
@@ -212,53 +212,44 @@
     }
 
     .bkjCej {
-        color: #cdd6f4 !important;
+        color: var(--text) !important;
     }
 
     /* Play Button */
     .vnCew8qzJq3cVGlYFXRI {
-        background-color: #CDD6F4 !important;
+        background-color: var(--text) !important;
         border-radius: 8px;
-        color: #11111b !important;
+        color: var(--crust) !important;
     }
 
     button.vnCew8qzJq3cVGlYFXRI svg {
-        fill: #11111b !important;
+        fill: var(--crust) !important;
     }
 
     .iDxtzn svg {
-        fill: #11111b !important;
+        fill: var(--crust) !important;
     }
 
     .cuLHaM {
-        background-color: #1e1e2e !important;
+        background-color: var(--base) !important;
     }
 
-
-
     .SboKmDrCTZng7t4EgNoM {
-        -webkit-app-region: no-drag;
-        background-color: #11111b !important;
-        border-radius: 4px;
+        background-color: var(--crust) !important;
         -webkit-box-shadow: 0 16px 24px rgba(0, 0, 0, .3), 0 6px 8px rgba(0, 0, 0, .2);
         box-shadow: 0 16px 24px rgba(0, 0, 0, .3), 0 6px 8px rgba(0, 0, 0, .2);
-        max-height: calc(100vh - 24px);
-        max-width: 350px;
-        min-width: 160px;
-        overflow-y: auto;
-        padding: 4px;
     }
 
     #tippy-11 {
-        background-color: #11111b !important;
+        background-color: var(--crust) !important;
     }
 
     .UIBT7E6ZYMcSDl1KL62g {
-        fill: #cdd6f4 !important;
+        fill: var(--text) !important;
     }
 
     .n5XwsUqagSoVk8oMiw1x {
-        fill: #cdd6f4;
+        fill: var(--text);
     }
 
     .bfQ2S9bMXr_kJjqEfcwA a,
@@ -273,7 +264,7 @@
 
     .epWhU7hHGktzlO_dop6z {
         background-color: transparent !important;
-        background-image: linear-gradient(90deg, #89b4fa 93%, transparent 100%);
+        background-image: linear-gradient(90deg, var(--accent) 93%, transparent 100%);
     }
 
     .LunqxlFIupJw_Dkx6mNx:hover {
@@ -281,8 +272,8 @@
     }
 
     .encore-dark-theme .encore-over-media-set {
-        --background-base: #11111B;
-        --background-highlight: #1E1E2E;
+        --background-base: var(--crust);
+        --background-highlight: var(--base);
         --background-press: rgba(0, 0, 0, .72);
         --background-unsafe-for-small-text-base: rgba(0, 0, 0, .42);
         --background-unsafe-for-small-text-highlight: rgba(0, 0, 0, .44);
@@ -293,30 +284,30 @@
         --background-tinted-base: rgba(49, 50, 68, .54);
         --background-tinted-highlight: rgba(49, 50, 68, .54);
         --background-tinted-press: rgba(49, 50, 68, .54);
-        --text-base: #cdd6f4;
-        --text-subdued: #cdd6f4;
-        --text-bright-accent: #cdd6f4;
-        --text-negative: #cdd6f4;
-        --text-warning: #cdd6f4;
-        --text-positive: #cdd6f4;
-        --text-announcement: #cdd6f4;
-        --essential-base: #cdd6f4;
-        --essential-subdued: #cdd6f4;
-        --essential-bright-accent: #cdd6f4;
-        --essential-negative: #cdd6f4;
-        --essential-warning: #cdd6f4;
-        --essential-positive: #cdd6f4;
-        --essential-announcement: #cdd6f4;
-        --decorative-base: #cdd6f4;
+        --text-base: var(--text);
+        --text-subdued: var(--text);
+        --text-bright-accent: var(--text);
+        --text-negative: var(--text);
+        --text-warning: var(--text);
+        --text-positive: var(--text);
+        --text-announcement: var(--text);
+        --essential-base: var(--text);
+        --essential-subdued: var(--text);
+        --essential-bright-accent: var(--text);
+        --essential-negative: var(--text);
+        --essential-warning: var(--text);
+        --essential-positive: var(--text);
+        --essential-announcement: var(--text);
+        --decorative-base: var(--text);
         --decorative-subdued: hsla(0, 0%, 100%, .13);
     }
 
     .encore-dark-theme,
     .encore-dark-theme .encore-base-set {
-        --background-base: #11111B;
-        --background-highlight: #1E1E2E;
+        --background-base: var(--crust);
+        --background-highlight: var(--base);
         --background-press: #000;
-        --background-elevated-base: #11111b;
+        --background-elevated-base: var(--crust);
         --background-elevated-highlight: #585b70;
         --background-elevated-press: #000;
         --background-tinted-base: hsla(237, 16%, 23%, .07);
@@ -325,9 +316,9 @@
         --background-unsafe-for-small-text-base: #121212;
         --background-unsafe-for-small-text-highlight: #121212;
         --background-unsafe-for-small-text-press: #121212;
-        --text-base: #cdd6f4;
+        --text-base: var(--text);
         --text-subdued: #a7a7a7;
-        --text-bright-accent: #89b4fa;
+        --text-bright-accent: var(--accent);
         --text-negative: #f15e6c;
         --text-warning: #ffa42b;
         --text-positive: #1ed760;
@@ -344,18 +335,18 @@
     }
 
     .encore-dark-theme .encore-bright-accent-set {
-        --background-base: #89b4fa;
-        --background-highlight: #89b4fa;
-        --background-press: #89b4fa;
-        --background-elevated-base: #89b4fa;
-        --background-elevated-highlight: #89b4fa;
-        --background-elevated-press: #89b4fa;
-        --background-tinted-base: #89b4fa;
-        --background-tinted-highlight: #89b4fa;
-        --background-tinted-press: #89b4fa;
-        --background-unsafe-for-small-text-base: #89b4fa;
-        --background-unsafe-for-small-text-highlight: #89b4fa;
-        --background-unsafe-for-small-text-press: #89b4fa;
+        --background-base: var(--accent);
+        --background-highlight: var(--accent);
+        --background-press: var(--accent);
+        --background-elevated-base: var(--accent);
+        --background-elevated-highlight: var(--accent);
+        --background-elevated-press: var(--accent);
+        --background-tinted-base: var(--accent);
+        --background-tinted-highlight: var(--accent);
+        --background-tinted-press: var(--accent);
+        --background-unsafe-for-small-text-base: var(--accent);
+        --background-unsafe-for-small-text-highlight: var(--accent);
+        --background-unsafe-for-small-text-press: var(--accent);
         --text-base: #000;
         --text-subdued: #000;
         --text-bright-accent: #000;
@@ -371,6 +362,6 @@
         --essential-positive: #000;
         --essential-announcement: #000;
         --decorative-base: #000;
-        --decorative-subdued: #89b4fa;
+        --decorative-subdued: var(--accent);
     }
 }

@@ -59,7 +59,9 @@
             --base: #24273a;
             --mantle: #1e2030;
             --crust: #181926;
-            --surface0-raw: 54, 58, 79;
+            --surface0-raw-r: 54;
+            --surface0-raw-g: 58;
+            --surface0-raw-b: 79;
 
             /* non-standard colors */
             --surface1Transparent: #494d64bd;
@@ -92,7 +94,9 @@
             --base: #1e1e2e;
             --mantle: #181825;
             --crust: #11111b;
-            --surface0-raw: 49, 50, 68;
+            --surface0-raw-r: 49;
+            --surface0-raw-g: 50;
+            --surface0-raw-b: 68;
 
             /* non-standard colors */
             --surface1Transparent: #45475abd;
@@ -276,16 +280,16 @@
     .encore-dark-theme .encore-over-media-set {
         --background-base: var(--crust);
         --background-highlight: var(--base);
-        --background-press: rgba(var(--surface0-raw), .72);
-        --background-unsafe-for-small-text-base: rgba(var(--surface0-raw), .42);
-        --background-unsafe-for-small-text-highlight: rgba(var(--surface0-raw), .44);
-        --background-unsafe-for-small-text-press: rgba(var(--surface0-raw), .61);
-        --background-elevated-base: rgba(var(--surface0-raw), .54);
-        --background-elevated-highlight: rgba(var(--surface0-raw), .54);
-        --background-elevated-press: rgba(var(--surface0-raw), .54);
-        --background-tinted-base: rgba(var(--surface0-raw), .54);
-        --background-tinted-highlight: rgba(var(--surface0-raw), .54);
-        --background-tinted-press: rgba(var(--surface0-raw), .54);
+        --background-press: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .72);
+        --background-unsafe-for-small-text-base: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .42);
+        --background-unsafe-for-small-text-highlight: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .44);
+        --background-unsafe-for-small-text-press: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .61);
+        --background-elevated-base: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
+        --background-elevated-highlight: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
+        --background-elevated-press: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
+        --background-tinted-base: rgba(var(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
+        --background-tinted-highlight: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
+        --background-tinted-press: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .54);
         --text-base: var(--text);
         --text-subdued: var(--text);
         --text-bright-accent: var(--text);
@@ -312,9 +316,9 @@
         --background-elevated-base: var(--crust);
         --background-elevated-highlight: #585b70;
         --background-elevated-press: #000;
-        --background-tinted-base: rgba(var(--surface0-raw), .07);
-        --background-tinted-highlight: rgba(var(--surface0-raw), .1);
-        --background-tinted-press: rgba(var(--surface0-raw), .04);
+        --background-tinted-base: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .07);
+        --background-tinted-highlight: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .1);
+        --background-tinted-press: rgba(var(--surface0-raw-r), var(--surface0-raw-g), var(--surface0-raw-b), .04);
         --background-unsafe-for-small-text-base: #121212;
         --background-unsafe-for-small-text-highlight: #121212;
         --background-unsafe-for-small-text-press: #121212;
